@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "backend", "backend", "{5FABF6D7-E8FD-4AA1-8EFA-28B27B43F9C4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BattlegroundBackend", "BattlegroundBackend", "{25B825F8-9C44-4919-A678-DC49D30FBDBE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BattleGameAPI", "backend\BattlegroundBackend\BattleGameAPI\BattleGameAPI.csproj", "{18914BFB-00AB-4F9C-A6C3-C667C5D628D2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18914BFB-00AB-4F9C-A6C3-C667C5D628D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18914BFB-00AB-4F9C-A6C3-C667C5D628D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18914BFB-00AB-4F9C-A6C3-C667C5D628D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18914BFB-00AB-4F9C-A6C3-C667C5D628D2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{25B825F8-9C44-4919-A678-DC49D30FBDBE} = {5FABF6D7-E8FD-4AA1-8EFA-28B27B43F9C4}
+		{18914BFB-00AB-4F9C-A6C3-C667C5D628D2} = {25B825F8-9C44-4919-A678-DC49D30FBDBE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AB6BB240-D950-4B89-8314-F82A9B7DDD4E}
+	EndGlobalSection
+EndGlobal
