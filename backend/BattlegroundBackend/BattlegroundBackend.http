@@ -1,0 +1,6 @@
+@BattlegroundBackend_HostAddress = http://localhost:5218
+
+GET {{BattlegroundBackend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
